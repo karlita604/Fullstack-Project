@@ -34,16 +34,21 @@ get -> creating a brand new route handlers
       watch for incoming http requesrs with this method
       methods are used to indicate a type
       get info
+      
 '/' -> watch for reuests trying to access '/' :route
       route portion of the handler
+      
 req -> object representing the incoming requests
       data about who is making the request
+      
 res -> Object representing the outgoing response
       data that is about to be sent back for the requests
+      
 res.send({ hi: "there" }); -> immediately close the request
                             and send some JSOn back to whoever
                             made this request
+                            
 app.listen(5000); -> instructs Express to tell Node that it 
                     wants to listen for incoming traffic on port 5000
-}, 10);
+
 */
