@@ -16,18 +16,13 @@ Goal: to communicate effectively between our MongoDB and React application. Thou
 -- Relationship Between Node and Express
 --
 
-
+***
 * mkdir Project
 * mkdir server
 * cd server
 * npm init
-* *
-* .
-* .
-* .
-*
 * npm install --save express
-
+***
 
 
 
