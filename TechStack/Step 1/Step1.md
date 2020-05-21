@@ -26,11 +26,36 @@ Goal: to communicate effectively between our MongoDB and React application. Thou
 
 
 
-* *Node: Javascript runtime used to execute code outside the browser*
+* **Node: 
+Javascript runtime used to execute code outside the browser*
 
 
 
-* *Express: Library that runs with Node runtime. Has helpers that make dealing with HTTP easier*
+* **Express: 
+Library that runs with Node runtime. Has helpers that make dealing with HTTP easier*
+
+
+![GitHub Logo](/TechStack/NvsE.png)
+Format: ![Alt Text](url)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
