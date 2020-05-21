@@ -16,26 +16,26 @@ Goal: to communicate effectively between our MongoDB and React application. Thou
 -- Relationship Between Node and Express
 --
 
-*** 
-\\
-mkdir Project
-mkdir server
-cd server
-npm init
+
+* mkdir Project
+* mkdir server
+* cd server
+* npm init
+* *
+* .
+* .
+* .
 *
-.
-.
-.
-*
-npm install --save express
-\\
-***
+* npm install --save express
 
 
 
-*Node: Javascript runtime used to execute code outside the browser*
-\\
-*Express: Library that runs with Node runtime. Has helpers that make dealing with HTTP easier*
+
+* *Node: Javascript runtime used to execute code outside the browser*
+
+
+
+* *Express: Library that runs with Node runtime. Has helpers that make dealing with HTTP easier*
 
 
 
