@@ -2,7 +2,7 @@
 ==> usually named index.js
 */
 
-**const express = require("express");
+**const express = require("express");**
 
 /*Javascript Modules:
 require keyword to give access to express library.
@@ -14,7 +14,7 @@ code to be shared between file.
 
 */
 
-**const app = express(); //first express application
+**const app = express(); //first express application**
 
 /* represents an express application
 this application is used to set up configuration that
@@ -23,9 +23,9 @@ this application is used to set up configuration that
 
 **app.get("/", (req, res) => {
   res.send({ hi: "there" });
-});
+});**
 
-**app.listen(5000);
+**app.listen(5000);**
 
 /*
 app -> Express App to register this route handler.
