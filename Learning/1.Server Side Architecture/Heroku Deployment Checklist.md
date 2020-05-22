@@ -1,12 +1,13 @@
 
-## Heroku Deployment Checklist
+
+# Heroku Deployment Checklist
 
 * these will only need to be done exactly one time!
 * get the application ready to be executed or hosted by Heroku
 * a lot of these steps are used for a lot of different providers! 
 * So this list is rather important 
 
-**Dynamic Port Binding:** 
+## **Dynamic Port Binding:** 
 
 Heroku tells us which port our app will use, so we need to make sure that we listen to the port they tell us to.
 
@@ -24,7 +25,7 @@ variable may not be declared so we need to add the 5000 as default.
 
 Or whatever port Heroku is telling us to listen to.
 
-**Specify Node Environment:** 
+## **Specify Node Environment:** 
 We want to use a specific version of node, so we need to tell Heroku which version (of Node) we want.
 * Inside your package.json you will specify what version you want to use
 * Between "main" and "scripts"
@@ -34,7 +35,7 @@ We want to use a specific version of node, so we need to tell Heroku which versi
 						},**
 *don't miss all the commas
 
-**Specify start script:**
+## **Specify start script:**
 Instruct Heroku what command to run to start our server running
 
 * inside package.json files, delete the "scripts" existing test script and replace with 
@@ -43,7 +44,7 @@ Instruct Heroku what command to run to start our server running
 		},**
 * whenever Heroku will run our application, it will execute the start command
 
-**Create .gitignore file:**
+## **Create .gitignore file:**
 we dont want to include dependencies, Heroku will do that for us.
 * make sure we do not commit any dependencies we created or installed
 * express is a dependency we installed
