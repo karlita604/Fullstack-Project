@@ -1,6 +1,6 @@
 
 
-# Heroku Deployment Checklist
+# Heroku Deployment Checklist - repeat on any Node.js project you want to deploy on Heroku
 
 * these will only need to be done exactly one time!
 * get the application ready to be executed or hosted by Heroku
