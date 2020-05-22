@@ -1,1 +1,39 @@
 
+# First Time Deployment Checklist
+
+##  1. Create Heroku Account
+##  2. Commit our codebase to git
+* git init ___
+* git pull
+* git add .
+* git commit -m "message"
+* git push
+## 3. Install Heroku CLI and Create New App
+* very intuitive if you use homebrew
+* heroku login
+* heroku create
+	* first link : address we will navigate to if we want to visit our application inside the browser
+	* second link: deployment target - git repository (managed by Heroku) that we can push our local server.
+	* when we push , heroku will take it as a signal to start up automatically.
+* git remote add heroku *second link*
+* git push heroku master
+* SUPER IMPORTANT THAT YOUR package.json file is in the root directory.
+## 4.  Deploy App with Git
+*  heroku open
+## 5.  Heroku deploys project
+* the webpage is open at the address of *first link*
+
+
+
+
+
+
+# Subsequent Deploys
+* make sure all your files are saved
+* inspect all the files --> git status
+## Commit codebase with git
+* git add .
+* git commit -m "message"
+* **git push heroku master**
+## Deploy App with Git
+* heroku open
