@@ -1,18 +1,4 @@
-/* route handler or root file or startup file
-==> usually named index.js
-*/
-
 const express = require("express");
-
-/*Javascript Modules:
-require keyword to give access to express library.
-
-* common JS modules in the server side -- system implemented in NOdeJS which requires
-code to be shared between file.
-
-*the import syntax allows for much easier access.
-
-*/
 
 const app = express(); //first express application
 
