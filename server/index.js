@@ -25,7 +25,19 @@ app.get("/", (req, res) => {
   res.send({ hi: "there" });
 });
 
-app.listen(5000);
+const PORT = process.env.PORT || 5000;
+/*
+We have to wait until the app is being executed
+by Heroku when we can look in the underlying environment
+to see if a port has been declared
+
+If we are running in a developping environment this
+variable may not be declared so we need to add the 5000 as default.
+
+Or whatever port Heroku is telling us to listen to.
+*/
+
+app.listen(PORT);
 
 /*
 app -> Express App to register this route handler.
@@ -43,7 +55,7 @@ res -> Object representing the outgoing response
 res.send({ hi: "there" }); -> immediately close the request
                             and send some JSOn back to whoever
                             made this request
-app.listen(5000); -> instructs Express to tell Node that it 
+app.listen(5000); -> instructs Express to tell Node that it
                     wants to listen for incoming traffic on port 5000
-}, 10);
+
 */
