@@ -8,7 +8,7 @@ this application is used to set up configuration that
  the requests to different route handlers */
 
 app.get("/", (req, res) => {
-  res.send({ hi: "there" });
+  res.send({ bye: "buddy" });
 });
 
 const PORT = process.env.PORT || 5000;
