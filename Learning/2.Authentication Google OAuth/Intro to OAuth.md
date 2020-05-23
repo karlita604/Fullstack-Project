@@ -48,3 +48,34 @@ Step 10: Kick user back to localhost:3000, then user is logged in
 Step 11: Need some resources from API , Cookie included.
 
 Step 12: the request has a cookie with user id = code
+
+
+
+
+
+# Overview of PassportJS
+## PassportJS handles steps 2-7
+
+*Common complaints:* 
+* does help us automate the majority of the flow, but requires us to add extra code in certain parts to make it work properly.
+* What is PassportJS? = at least 2 different libraries
+
+## Passport Library Components
+
+ **passport**: General helpers, objects, functions for handling auth in Express apps
+**passport strategy:** Helpers with authenticating with one very specific method/provider (email/password, google, facebook, etc) 
+
+You will need a distinct passport strategy for each method you want to authenticate.
+
+
+## How to install PassportJS
+npm install -- save passport passport-google-oauth20
+
+
+
+
+My Project
+Client ID:
+537955690285-nk4qaitqcm7ke10m4k8o714mhn2lda2s.apps.googleusercontent.com
+Your Client Secret:
+TsWVsbH1SAXNkyCA0QaCAJpN
