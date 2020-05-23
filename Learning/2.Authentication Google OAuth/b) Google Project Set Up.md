@@ -1,5 +1,4 @@
-In the upcoming lecture, Stephen will be going through the steps to create a new Google Project. Since the UI has changed, we have provided screenshots with the steps needed to create the project and obtain the Client Id and Client Secret.
-
+# Enabling Google OAuth API - with new UI
 1. Go to the Google Project Dashboard:
 
 https://console.cloud.google.com
