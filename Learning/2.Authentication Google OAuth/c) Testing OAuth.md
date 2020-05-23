@@ -46,3 +46,4 @@ app.listen(PORT);
 
 
 ## Error: redirect_url_mismatch
+ Your redirect uri should match in your script and in the credentials of yur google cloud platform or else google will not allow you/client to proceed
