@@ -1,6 +1,3 @@
-//Client ID: 537955690285-nk4qaitqcm7ke10m4k8o714mhn2lda2s.apps.googleusercontent.com
-//Client Secret: TsWVsbH1SAXNkyCA0QaCAJpN
-
 const express = require("express");
 const passport = require("passport");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
