@@ -72,10 +72,3 @@ You will need a distinct passport strategy for each method you want to authentic
 npm install -- save passport passport-google-oauth20
 
 
-
-
-My Project
-Client ID:
-537955690285-nk4qaitqcm7ke10m4k8o714mhn2lda2s.apps.googleusercontent.com
-Your Client Secret:
-TsWVsbH1SAXNkyCA0QaCAJpN
