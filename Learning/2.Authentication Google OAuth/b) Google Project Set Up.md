@@ -30,5 +30,8 @@ http://localhost:5000/auth/google/callback
 11. Copy your Client ID and Client Secret in a safe place so you can use it in your application in a future lecture. (ID and Secret were redacted from the screenshot)
 
 
+******
 
+**clientID:** Public token - we can share this with the public
+**clientSecret:** Private token - no one else should see this as it would give then elevated priviledges
 
